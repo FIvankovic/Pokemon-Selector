@@ -1,0 +1,584 @@
+body{
+    scroll-behavior: smooth;
+    background-color: linear-gradient(#59C173,#a17fe0,#5D26C1);
+}
+#section-info{
+    color: white !important;
+}
+.selectionButtons{
+    margin-top: 20px;
+    text-align: center !important;
+}
+.label-selectForm{
+    margin-top: 20px;
+}
+.link{
+    color: rgb(18, 243, 18);
+    transition: all 0.6s;
+}
+.link:hover{
+    color: rgb(153, 255, 0);
+}
+/*
+* --- navbar
+*/
+nav{
+    top: 0;
+}
+.navbar{
+    position: sticky !important;
+    display: flex;
+    z-index: 999;
+    border-bottom: 2px solid black;
+    background-color:#555555 !important;
+}
+.nav-link{
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    font-size: 18px;
+}
+#logo{
+    width: 70px;
+    height: auto;
+    padding-right: 10px;
+}
+/*
+* --- header
+*/
+#header{
+    background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url('../media/headerImage.jpg');
+    background-size: cover;
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+    background-position: center top;
+    background-attachment: fixed;
+}
+#header-logo{
+    height: auto;
+    width: 150px;
+}
+#header-text{
+    font-weight: bold;
+    color: white;
+    font-family: "Perpetua Titling MT Light", serif !important;
+    font-size: 50px;
+    position: relative;
+    top: 30vh;
+    text-shadow: 1px 2px 20px rgb(0, 0, 0);
+    text-align: center;
+}
+#header-title{
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 26px;
+}
+#subtitle{
+    border-bottom: 2px solid white;
+    font-size: 50px;
+    color: white;
+    transition: all linear 0.6s;
+}
+#subtitle:hover{
+    text-decoration: none;
+    font-size: 70;
+    text-shadow: 5px 1px 10px rgb(230, 30, 30);
+    
+}
+
+/*
+* --- info section on index.html
+*/
+.info-grid-text{
+    font-size: 20px !important;
+    font-family: 'Calibri', monospace;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    transition: all 1.5s;
+}
+.info-grid-text:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#venusaurGreen:hover{
+    box-shadow: -1px 1px 10px 2px rgba(0, 128, 0, 0.9);
+}
+#charizardRed:hover{
+    box-shadow: -1px 1px 10px 2px rgba(255, 0, 0, 0.9);
+}
+#blastoiseBlue:hover{
+    box-shadow: -1px 1px 10px 2px rgba(0, 0, 255, 0.9);
+}
+
+#info-grid1{
+    background: linear-gradient( rgba(38, 105, 58, 0.7), rgba(61, 130, 153, 0.7) ), url('../media/Venusaur.png');
+    background-size: cover;
+    background-position: center top;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    border-right: 1px solid yellowgreen;   
+}
+#info-grid2{
+    background: linear-gradient( rgb(138, 35, 135,0.7), rgb(233, 64, 87,0.7),rgba(242, 113, 33,0.7) ), url('../media/Charizard.png');
+    background-size: cover;
+    background-position: center top;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#info-grid3{
+    background: linear-gradient( rgba(5, 27, 77, 0.7), rgba(66, 134, 244, 0.7) ), url('../media/Blastoise.png');
+    background-size: cover;
+    background-position: center top;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-left: 1px solid purple;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+#pokemonTypingChart-img{
+    margin-bottom: 30px;
+}
+
+/*
+* --- pokedex on index.html
+*/
+#section-pokedexLink{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../media/Map.png');
+    background-position: center top;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding-bottom: 160px;
+    padding-top: 160px;
+}
+#pokedexLink-text{
+    color: whitesmoke!important;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 4px 6px #000;
+    font-size: 60px;
+    padding: 26px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(216, 216, 216, 0.6);
+    border-radius: 25px;
+    border-right: 10px outset black;
+    border-left: 10px outset black;
+    border-top: 5px outset black;
+    border-bottom: 15px outset black;
+    padding-top: 80px;
+}
+#linkToPokedex{
+    font-size: 50px;
+}
+#pokedexImg-container{
+    margin-left: 200px;
+}
+#professorOakImg-container{
+    text-align: right;
+    margin-right: 180px;
+}
+#professorOak-img{
+    height: auto;
+    width: 450px;
+}
+
+
+
+/*
+* --- Pokemon Selector - index.html
+*/
+#section-interactive-form{
+    padding-bottom: 220px;
+    padding-top: 220px;
+    border-top: 2px solid red;
+    background: linear-gradient(rgb(72, 155, 170), #65C7F7,#24243e );
+}
+.pokeSelector{
+    border: 2px solid black;
+}
+#select-img{
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+#selectText{
+    background-color:white;
+    padding-left: 20px;
+}
+#selectionConsole{
+    color: black;
+    background-color: white;
+    padding-right: 20px;
+    border-top: 3px solid black;
+    border-right: 3px dashed gainsboro;
+}
+#selectionRow{
+    border-bottom: 3px solid black;
+}
+#imageSelectDisplay{
+    background: linear-gradient( rgba(3, 40, 160, 0.8), rgba(3, 121, 28, 0.8) ), url('../media/selectBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-top: 2px solid black;
+}
+#imageSelectDiv{
+    background-size: cover;
+    border-radius: 20px;
+    padding: 36px;
+    height: 500px;
+}
+
+
+/*
+* --- footer -------------------------------------------------------------
+*/
+footer{
+    background-color: #555555;
+    color: white;
+    padding-top: 30px;
+    padding-bottom:30px;
+    border-top: 2px solid black;
+    margin-right: 0px !important;
+}
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.footer-img{
+    height: auto;
+    width: 140px;
+}
+
+/*
+* --- pokedex.html, pokedex.js -------------------------------------------------------------
+*/
+#pokedex{
+    list-style-type: none;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr)) !important;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+#pokedex-section{
+    background: linear-gradient(  rgba(218, 226, 248, 0.7),rgba(214, 164, 164, 0.7));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pokemon-artwork{
+    height:auto;
+    width: 250px;
+    position: relative;
+}
+.pokemonArtwork-container{
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 160%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-upperLayer{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    height: 25px;
+    padding-left:5px;
+}
+.pokemonPokedexNum{
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+.pokedexLink{
+    color: rgb(255,255,255,.5);
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    transition: all 0.7s;
+    transition-timing-function: linear;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+.pokedexLink:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+.pokemon-info{
+    text-shadow: 1px 2px 3px rgb(73, 73, 73);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    height: 120px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-bottom:20px;
+    margin-right: 40px;
+    padding-left: 40px;
+    border-top: 2px solid rgb(41, 41, 41);
+    border-right: 2px solid rgb(41, 41, 41);
+    border-bottom: 2px solid rgb(41, 41, 41);
+    transition: all 0.5s;
+    transition-timing-function: linear;
+}
+.pokemon-info:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+.card:hover{
+    transition: all 2s;
+    transition-timing-function: linear;
+    text-shadow: 1px 2px 3px rgb(109, 109, 109);
+}
+
+.card:hover{
+    transition: all 0.3s;
+    transition-timing-function: linear;
+    -webkit-box-shadow: 0px 0px 5px 1px rgb(145, 145, 145);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(145, 145, 145);
+    box-shadow: 0px 0px 5px 1px rgb(145, 145, 145);
+}
+
+/*
+* --------form.html -------------------------------------------------------------
+*/
+#section-form{
+    background: linear-gradient(  #D3CCE3,#E9E4F0);
+}
+#submission-form{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(145, 145, 145, 0.3);
+    max-width: 100%;
+    overflow: hidden;
+}
+#chosenPokemon{
+    height: auto;
+    width: 500px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+#chosenPokemonDiv{
+    background: linear-gradient( url('../media/selectBackground.jpg'));
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 250px;
+    border: 3px solid black;
+    margin-bottom: 120px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: -1px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 12px 5px 0px rgba(0,0,0,0.75);
+}
+#pokemonFormHeader{
+    background-color: whitesmoke;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #b1b1b1;
+    border-top: 4px solid #b1b1b1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 4px solid #b1b1b1;
+    border-right: 4px solid #b1b1b1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+}
+#submissionForm{
+    background-color: white;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 40px; 
+    border-bottom: 4px solid #b1b1b1;
+    border-top: 4px solid #b1b1b1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left: 4px solid #b1b1b1;
+    border-right: 4px solid #b1b1b1;
+    box-shadow: -1px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 2px 0px rgba(0,0,0,0.75);
+}
+.form-control{
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+}
+.form-control input{
+    border: 3px solid rgb(116, 116, 116);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+.form-control.success input{
+    border-color: #00ad0c;
+}
+.form-control.error input{
+    border-color: #ff2919;
+}
+.form-control.success i.fa-check-circle{
+    visibility: visible;
+    color: #00ad0c;
+}
+.form-control.error i.fa-exclamation-circle{
+    visibility: visible;
+    color: #ff2919;
+}
+.form-control i{
+    margin-bottom: 15px;
+    display: block;
+    position: absolute;
+    top: 54px;
+    right: 20px;
+    visibility: hidden;
+}
+.form-control small{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    visibility: hidden; 
+}
+.form-control.error small{
+    visibility: visible;
+    color: #ff2919;
+    font-weight: bold;
+}
+.buttonStyle{
+    padding: 5px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #8e44ad !important;
+    border: 2px solid #8e44ad !important;
+    border-radius: 4px;
+    color: white;
+}
+/*
+* --------General -------------------------------------------------------------
+*/
+.no-border{
+    border: none !important;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-justify{
+    text-align: justify;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-height-20px{
+    line-height: 15px;
+}
+
+
+/*
+* --------Media Quaries -------------------------------------------------------------
+*/
+@media only screen and (max-width: 900px) {
+    #header-text{
+        position: relative;
+        font-weight: bold;
+        font-size: 30px;
+        top: 50px;
+        left:0px;
+    }
+    #header{
+        height: 60vh;
+    }
+    #header-title{
+        font-size: 30px;
+        border-radius: 20px;
+        padding: 16px;
+    }
+    #subtitle{
+        font-size: 20px;
+    }
+    #pokedexLink-text{
+        font-size: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #chosenPokemonDiv{
+        padding-bottom: 50px;
+        border: 3px solid black;
+        margin-bottom: 30px;
+        margin-right: 0px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .info-grid-text{
+        font-size: 20px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+       
+    }
+    #pokedexLink-text{
+        font-size: 30px;
+        padding: 26px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    #linkToPokedex{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #pokedexImg-container{
+        margin-left: 200px;
+    }
+    #professorOakImg-container{
+        text-align: right;
+        margin-right: 180px;
+    }
+    #professorOak-img{
+        height: auto;
+        width: 280px;
+    }
+    
+  }
